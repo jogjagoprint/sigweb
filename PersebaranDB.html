@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+
+    <title>Demam Berdarah</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+
+  </head>
+
+  <style media="screen">
+  @font-face {
+     font-family: "Sans-sherif";
+     src: url(sansation_light.woff);
+  }
+
+  * {
+     font-family: myFirstFont;
+  }
+  .dropbtn {
+background-color: #4CAF50;
+color: white;
+padding: 16px;
+font-size: 16px;
+border: none;
+}
+
+.dropdown {
+position: relative;
+display: inline-block;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f1f1f1;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.dropdown-content a {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+</style>
+
+  <nav class="navbar navbar-dark bg-dark">
+    <h1 class="navbar-brand" href="#">BERANDA</h1>
+
+
+  <div class="dropdown">
+<button class="dropbtn">Pilih Persebaran</button>
+<div class="dropdown-content">
+  <a href="https://rawcdn.githack.com/jogjagoprint/sigweb/bfe3fdb63e6bc04854080e1730152550e35c3465/kos.html"> Kos Penderita</a>
+  <a href="https://rawcdn.githack.com/jogjagoprint/sigweb/bfe3fdb63e6bc04854080e1730152550e35c3465/kampus.html">Kampus Asal</a>
+  <a href="https://rawcdn.githack.com/jogjagoprint/sigweb/bfe3fdb63e6bc04854080e1730152550e35c3465/rs2.html">Rumah Sakit Dituju</a>
+</div>
+</div>
+</nav>
+
+  <body>
+
+
+<iframe src="https://www.google.com/maps/d/embed?mid=1aM6x0CeFGx9TPJ6cuZVZZuTTtZ9odYK3" width=100% height="550"></iframe>
+  </body>
+</html>
